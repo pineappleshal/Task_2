@@ -1,0 +1,87 @@
+{
+  "name": "Создание заказа с авторизацией и ингредиентами",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Создать заказ",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "POST /orders",
+          "status": "passed",
+          "attachments": [
+            {
+              "name": "Тело запроса",
+              "source": "aaef739a-ffe5-43bf-9cfc-ca01c50e05f2-attachment.json",
+              "type": "application/json"
+            },
+            {
+              "name": "Ответ сервера",
+              "source": "cbf83e06-1489-4664-9fe0-871e59ddef77-attachment.txt",
+              "type": "text/plain"
+            }
+          ],
+          "start": 1795416867730,
+          "stop": 1795416868181
+        }
+      ],
+      "parameters": [
+        {
+          "name": "payload",
+          "value": "{'ingredients': ['691577430cc94f001a65b859', '691577430cc94f001a65b863', '691577430cc94f001a65b859']}"
+        }
+      ],
+      "start": 1795416867730,
+      "stop": 1795416868181
+    }
+  ],
+  "start": 1795416867730,
+  "stop": 1795416868181,
+  "uuid": "5e976e21-5b86-405c-b50e-736b2bedb09b",
+  "historyId": "cbab26fcd6299e37c80046af01ef0a97",
+  "testCaseId": "cbab26fcd6299e37c80046af01ef0a97",
+  "fullName": "tests.test_create_order.TestCreateOrder#test_create_order_authorized",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Создание заказа"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_create_order"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCreateOrder"
+    },
+    {
+      "name": "host",
+      "value": "WIN-IJRG074EARB"
+    },
+    {
+      "name": "thread",
+      "value": "3148-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_create_order"
+    }
+  ],
+  "titlePath": [
+    "tests",
+    "test_create_order.py",
+    "TestCreateOrder"
+  ]
+}

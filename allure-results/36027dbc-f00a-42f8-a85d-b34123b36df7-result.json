@@ -1,0 +1,81 @@
+{
+  "name": "Авторизованный пользователь получает только свои заказы",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Получить заказы пользователя",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "GET /orders",
+          "status": "passed",
+          "attachments": [
+            {
+              "name": "Тело запроса",
+              "source": "2fa784f6-97c3-49f1-af82-3cb28b51a833-attachment.json",
+              "type": "application/json"
+            },
+            {
+              "name": "Ответ сервера",
+              "source": "43f6ccc4-e60b-4dd7-bcc8-cab02d39a679-attachment.txt",
+              "type": "text/plain"
+            }
+          ],
+          "start": 1795416871437,
+          "stop": 1795416871494
+        }
+      ],
+      "start": 1795416871437,
+      "stop": 1795416871494
+    }
+  ],
+  "start": 1795416871437,
+  "stop": 1795416871494,
+  "uuid": "bda77641-4cf6-47d1-80df-9338bebd5b8d",
+  "historyId": "711e1c3ef023ff4f5abc0ec3456b0570",
+  "testCaseId": "711e1c3ef023ff4f5abc0ec3456b0570",
+  "fullName": "tests.test_get_orders.TestGetOrders#test_get_own_orders",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Заказы пользователя"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_get_orders"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGetOrders"
+    },
+    {
+      "name": "host",
+      "value": "WIN-IJRG074EARB"
+    },
+    {
+      "name": "thread",
+      "value": "3148-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_get_orders"
+    }
+  ],
+  "titlePath": [
+    "tests",
+    "test_get_orders.py",
+    "TestGetOrders"
+  ]
+}

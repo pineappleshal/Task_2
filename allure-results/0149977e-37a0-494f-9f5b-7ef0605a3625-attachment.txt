@@ -1,0 +1,2 @@
+HTTP 200
+{"success": true, "user": {"email": "valeriia_f2e79db4f291447e95de1aaf86f85912@example.com", "name": "Valeriia"}}

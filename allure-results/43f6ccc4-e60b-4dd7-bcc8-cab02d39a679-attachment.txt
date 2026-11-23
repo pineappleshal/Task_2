@@ -1,0 +1,2 @@
+HTTP 200
+{"success": true, "orders": [{"_id": "6b03e3295e91ca001b23ccf6", "ingredients": ["691577430cc94f001a65b859", "691577430cc94f001a65b863", "691577430cc94f001a65b859"], "status": "done", "name": "Минеральный краторный бургер", "createdAt": "2026-11-23T06:54:33.394Z", "updatedAt": "2026-11-23T06:54:33.573Z", "number": 25358}], "total": 24985, "totalToday": 354}

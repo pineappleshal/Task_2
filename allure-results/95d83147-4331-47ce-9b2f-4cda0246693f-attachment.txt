@@ -1,2 +1,0 @@
-HTTP 200
-{"success": true, "user": {"email": "valeriia_bbd3b635501d473286cd1931e95dccb9@example.com", "name": "Valeriia"}, "accessToken": "<hidden>", "refreshToken": "<hidden>"}

@@ -1,0 +1,44 @@
+{
+  "uuid": "177d4692-cfe5-41af-b796-e180cc702b2c",
+  "children": [
+    "8c0ec964-931d-4957-9748-d4c1fa57305c"
+  ],
+  "befores": [
+    {
+      "name": "registered_user",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "Создать пользователя",
+          "status": "passed",
+          "steps": [
+            {
+              "name": "POST /auth/register",
+              "status": "passed",
+              "attachments": [
+                {
+                  "name": "Тело запроса",
+                  "source": "a6de5d0c-888a-4b2e-b2b6-0c1eda017dfd-attachment.json",
+                  "type": "application/json"
+                },
+                {
+                  "name": "Ответ сервера",
+                  "source": "e807bb1b-42b9-4248-8aa1-d60eb7a90a03-attachment.txt",
+                  "type": "text/plain"
+                }
+              ],
+              "start": 1795416872453,
+              "stop": 1795416872607
+            }
+          ],
+          "start": 1795416872453,
+          "stop": 1795416872607
+        }
+      ],
+      "start": 1795416872453,
+      "stop": 1795416872607
+    }
+  ],
+  "start": 1795416872453,
+  "stop": 1795416872711
+}

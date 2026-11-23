@@ -1,0 +1,91 @@
+{
+  "name": "Создание заказа с некорректным хешем ингредиента",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: assert 400 == 500\n +  where 400 = <Response [400]>.status_code",
+    "trace": "tests\\test_create_order.py:34: in test_create_order_invalid_ingredient_hash\n    assert response.status_code == 500\nE   assert 400 == 500\nE    +  where 400 = <Response [400]>.status_code"
+  },
+  "steps": [
+    {
+      "name": "Создать заказ",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "POST /orders",
+          "status": "passed",
+          "attachments": [
+            {
+              "name": "Тело запроса",
+              "source": "565fd09c-78f0-4739-b7a1-5ee202227f26-attachment.json",
+              "type": "application/json"
+            },
+            {
+              "name": "Ответ сервера",
+              "source": "22ba0702-72ba-420f-984a-9f7db4007c21-attachment.txt",
+              "type": "text/plain"
+            }
+          ],
+          "start": 1795416869261,
+          "stop": 1795416869316
+        }
+      ],
+      "parameters": [
+        {
+          "name": "payload",
+          "value": "{'ingredients': ['ffffffffffffffffffffffff']}"
+        }
+      ],
+      "start": 1795416869261,
+      "stop": 1795416869316
+    }
+  ],
+  "start": 1795416869261,
+  "stop": 1795416869316,
+  "uuid": "89d60be9-4d98-4690-8331-6386ac87e68f",
+  "historyId": "91676175c40098ec8b6a23c1d925ed82",
+  "testCaseId": "91676175c40098ec8b6a23c1d925ed82",
+  "fullName": "tests.test_create_order.TestCreateOrder#test_create_order_invalid_ingredient_hash",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Создание заказа"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_create_order"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCreateOrder"
+    },
+    {
+      "name": "host",
+      "value": "WIN-IJRG074EARB"
+    },
+    {
+      "name": "thread",
+      "value": "3148-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_create_order"
+    }
+  ],
+  "titlePath": [
+    "tests",
+    "test_create_order.py",
+    "TestCreateOrder"
+  ]
+}

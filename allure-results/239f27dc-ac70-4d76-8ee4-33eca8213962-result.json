@@ -1,0 +1,81 @@
+{
+  "name": "Вход с верными учётными данными",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Войти в аккаунт",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "POST /auth/login",
+          "status": "passed",
+          "attachments": [
+            {
+              "name": "Тело запроса",
+              "source": "53b4089f-50e5-42ef-8076-6761385d140a-attachment.json",
+              "type": "application/json"
+            },
+            {
+              "name": "Ответ сервера",
+              "source": "3c940138-ee02-4e97-b538-c7607d73e19e-attachment.txt",
+              "type": "text/plain"
+            }
+          ],
+          "start": 1795416871952,
+          "stop": 1795416872057
+        }
+      ],
+      "start": 1795416871952,
+      "stop": 1795416872057
+    }
+  ],
+  "start": 1795416871952,
+  "stop": 1795416872058,
+  "uuid": "31d2b13b-cf83-41a0-8856-f4615ae571cc",
+  "historyId": "eecefcaa122355c8ef6a28b0a58c7233",
+  "testCaseId": "eecefcaa122355c8ef6a28b0a58c7233",
+  "fullName": "tests.test_login.TestLogin#test_login_existing_user",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Вход пользователя"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_login"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestLogin"
+    },
+    {
+      "name": "host",
+      "value": "WIN-IJRG074EARB"
+    },
+    {
+      "name": "thread",
+      "value": "3148-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_login"
+    }
+  ],
+  "titlePath": [
+    "tests",
+    "test_login.py",
+    "TestLogin"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "uuid": "8ec427cf-70af-4e1d-a109-5c58c05270a9",
+  "children": [
+    "bda77641-4cf6-47d1-80df-9338bebd5b8d"
+  ],
+  "befores": [
+    {
+      "name": "user_factory",
+      "status": "passed",
+      "start": 1795416870210,
+      "stop": 1795416870210
+    }
+  ],
+  "afters": [
+    {
+      "name": "user_factory::0",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "Удалить тестового пользователя",
+          "status": "passed",
+          "steps": [
+            {
+              "name": "DELETE /auth/user",
+              "status": "passed",
+              "attachments": [
+                {
+                  "name": "Тело запроса",
+                  "source": "53998a50-d7ec-4b76-af96-7da3f2084a12-attachment.json",
+                  "type": "application/json"
+                },
+                {
+                  "name": "Ответ сервера",
+                  "source": "03fabd33-4a2c-4e26-91cd-3fb2a60a1a3b-attachment.txt",
+                  "type": "text/plain"
+                }
+              ],
+              "start": 1795416871513,
+              "stop": 1795416871642
+            }
+          ],
+          "start": 1795416871513,
+          "stop": 1795416871642
+        },
+        {
+          "name": "Удалить тестового пользователя",
+          "status": "passed",
+          "steps": [
+            {
+              "name": "DELETE /auth/user",
+              "status": "passed",
+              "attachments": [
+                {
+                  "name": "Тело запроса",
+                  "source": "5b15474c-8f2b-4377-8ca6-2cdfe8ccac7b-attachment.json",
+                  "type": "application/json"
+                },
+                {
+                  "name": "Ответ сервера",
+                  "source": "6d797668-c036-4df1-ac4f-4b08b3807152-attachment.txt",
+                  "type": "text/plain"
+                }
+              ],
+              "start": 1795416871643,
+              "stop": 1795416871741
+            }
+          ],
+          "start": 1795416871643,
+          "stop": 1795416871741
+        }
+      ],
+      "start": 1795416871513,
+      "stop": 1795416871741
+    }
+  ],
+  "start": 1795416870210,
+  "stop": 1795416871741
+}

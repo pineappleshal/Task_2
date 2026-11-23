@@ -1,2 +1,0 @@
-HTTP 200
-{"success": true, "name": "Минеральный краторный бургер", "order": {"number": 9251}}
