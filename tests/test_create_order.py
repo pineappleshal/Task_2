@@ -30,7 +30,7 @@ class TestCreateOrder:
 
     @allure.title('Создание заказа с некорректным хешем ингредиента')
     def test_create_order_invalid_ingredient_hash(self, authorized_api):
-        response = authorized_api.create_order({'ingredients': ['invalid-hash']})
+        response = authorized_api.create_order({'ingredients': ['ffffffffffffffffffffffff']})
         assert response.status_code == 500
         # Формат тела ошибки 500 в документации не задан.
         assert response.text.strip()
