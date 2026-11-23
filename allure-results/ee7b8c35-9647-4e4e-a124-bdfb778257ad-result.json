@@ -1,0 +1,87 @@
+{
+  "name": "Изменение поля name без авторизации",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Изменить данные пользователя",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "PATCH /auth/user",
+          "status": "passed",
+          "attachments": [
+            {
+              "name": "Тело запроса",
+              "source": "868319cb-3a3e-425f-b88c-ff096f885e9c-attachment.json",
+              "type": "application/json"
+            },
+            {
+              "name": "Ответ сервера",
+              "source": "b949c37c-3e23-4786-ba56-29bec068491e-attachment.txt",
+              "type": "text/plain"
+            }
+          ],
+          "start": 1795416512275,
+          "stop": 1795416512335
+        }
+      ],
+      "start": 1795416512275,
+      "stop": 1795416512335
+    }
+  ],
+  "parameters": [
+    {
+      "name": "field",
+      "value": "'name'"
+    }
+  ],
+  "start": 1795416512275,
+  "stop": 1795416512335,
+  "uuid": "b47355e4-daf9-4a5f-9817-d3f9d4d90f0e",
+  "historyId": "0998911df522f4f6310bd3773491c0b0",
+  "testCaseId": "1924e3b2859d5f6eb25a83c484530f80",
+  "fullName": "tests.test_update_user.TestUpdateUser#test_update_without_authorization",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Изменение пользователя"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_update_user"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestUpdateUser"
+    },
+    {
+      "name": "host",
+      "value": "WIN-IJRG074EARB"
+    },
+    {
+      "name": "thread",
+      "value": "22276-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_update_user"
+    }
+  ],
+  "titlePath": [
+    "tests",
+    "test_update_user.py",
+    "TestUpdateUser"
+  ]
+}

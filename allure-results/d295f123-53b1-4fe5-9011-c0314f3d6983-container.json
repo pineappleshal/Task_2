@@ -1,0 +1,76 @@
+{
+  "uuid": "c41de208-9196-4e10-9926-febc5cb56bc4",
+  "children": [
+    "50bb15cf-f874-47c8-9a42-a604c6ba6096"
+  ],
+  "befores": [
+    {
+      "name": "another_users_order",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "Создать пользователя",
+          "status": "passed",
+          "steps": [
+            {
+              "name": "POST /auth/register",
+              "status": "passed",
+              "attachments": [
+                {
+                  "name": "Тело запроса",
+                  "source": "92c2aab2-758f-4cc4-8eb2-fa27e1e0b074-attachment.json",
+                  "type": "application/json"
+                },
+                {
+                  "name": "Ответ сервера",
+                  "source": "88fe0e84-322b-469a-b4e9-4feabd28ea19-attachment.txt",
+                  "type": "text/plain"
+                }
+              ],
+              "start": 1795416506109,
+              "stop": 1795416506212
+            }
+          ],
+          "start": 1795416506109,
+          "stop": 1795416506212
+        },
+        {
+          "name": "Создать заказ",
+          "status": "passed",
+          "steps": [
+            {
+              "name": "POST /orders",
+              "status": "passed",
+              "attachments": [
+                {
+                  "name": "Тело запроса",
+                  "source": "ffcd9fcb-0196-4733-9985-dee4f3227e5d-attachment.json",
+                  "type": "application/json"
+                },
+                {
+                  "name": "Ответ сервера",
+                  "source": "7b3e013d-d25b-40a0-be83-9a8a87857e28-attachment.txt",
+                  "type": "text/plain"
+                }
+              ],
+              "start": 1795416506213,
+              "stop": 1795416506657
+            }
+          ],
+          "parameters": [
+            {
+              "name": "payload",
+              "value": "{'ingredients': ['691577430cc94f001a65b859', '691577430cc94f001a65b863', '691577430cc94f001a65b859']}"
+            }
+          ],
+          "start": 1795416506213,
+          "stop": 1795416506657
+        }
+      ],
+      "start": 1795416506108,
+      "stop": 1795416506659
+    }
+  ],
+  "start": 1795416506108,
+  "stop": 1795416506718
+}

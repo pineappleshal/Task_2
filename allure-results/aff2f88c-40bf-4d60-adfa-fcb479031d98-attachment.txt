@@ -1,0 +1,2 @@
+HTTP 403
+{"success": false, "message": "User already exists"}

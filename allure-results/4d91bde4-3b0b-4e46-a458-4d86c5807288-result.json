@@ -1,0 +1,87 @@
+{
+  "name": "Вход с неверными данными: ('email', 'password')",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Войти в аккаунт",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "POST /auth/login",
+          "status": "passed",
+          "attachments": [
+            {
+              "name": "Тело запроса",
+              "source": "9829f2fd-01d4-450a-897f-2c019c15a0bc-attachment.json",
+              "type": "application/json"
+            },
+            {
+              "name": "Ответ сервера",
+              "source": "9fe301e3-7875-40fa-951f-3085cbd6f258-attachment.txt",
+              "type": "text/plain"
+            }
+          ],
+          "start": 1795416508623,
+          "stop": 1795416508665
+        }
+      ],
+      "start": 1795416508623,
+      "stop": 1795416508665
+    }
+  ],
+  "parameters": [
+    {
+      "name": "fields",
+      "value": "('email', 'password')"
+    }
+  ],
+  "start": 1795416508623,
+  "stop": 1795416508666,
+  "uuid": "4c2aba0d-760a-4341-807e-3063a5604ba5",
+  "historyId": "ef8d43cba164566a41c62718b12bfe0a",
+  "testCaseId": "d367953754337ef0c932987eb9b35947",
+  "fullName": "tests.test_login.TestLogin#test_login_invalid_credentials",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Вход пользователя"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_login"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestLogin"
+    },
+    {
+      "name": "host",
+      "value": "WIN-IJRG074EARB"
+    },
+    {
+      "name": "thread",
+      "value": "22276-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_login"
+    }
+  ],
+  "titlePath": [
+    "tests",
+    "test_login.py",
+    "TestLogin"
+  ]
+}

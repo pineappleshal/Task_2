@@ -1,0 +1,50 @@
+{
+  "uuid": "a04f0ace-7f8c-475c-aa52-4992ae5debe3",
+  "children": [
+    "50bb15cf-f874-47c8-9a42-a604c6ba6096"
+  ],
+  "befores": [
+    {
+      "name": "own_order",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "Создать заказ",
+          "status": "passed",
+          "steps": [
+            {
+              "name": "POST /orders",
+              "status": "passed",
+              "attachments": [
+                {
+                  "name": "Тело запроса",
+                  "source": "901e0977-24d2-4ae4-b327-c755e9ff1e7e-attachment.json",
+                  "type": "application/json"
+                },
+                {
+                  "name": "Ответ сервера",
+                  "source": "75bb7408-8aa5-45bc-89b6-6c6086424b98-attachment.txt",
+                  "type": "text/plain"
+                }
+              ],
+              "start": 1795416505639,
+              "stop": 1795416506108
+            }
+          ],
+          "parameters": [
+            {
+              "name": "payload",
+              "value": "{'ingredients': ['691577430cc94f001a65b859', '691577430cc94f001a65b863', '691577430cc94f001a65b859']}"
+            }
+          ],
+          "start": 1795416505639,
+          "stop": 1795416506108
+        }
+      ],
+      "start": 1795416505638,
+      "stop": 1795416506108
+    }
+  ],
+  "start": 1795416505638,
+  "stop": 1795416506721
+}
