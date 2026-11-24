@@ -1,0 +1,81 @@
+{
+  "name": "Получение заказов без авторизации",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Получить заказы пользователя",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "GET /orders",
+          "status": "passed",
+          "attachments": [
+            {
+              "name": "Тело запроса",
+              "source": "353ab81e-e40a-4a5a-9aa7-e5d6c37d7347-attachment.json",
+              "type": "application/json"
+            },
+            {
+              "name": "Ответ сервера",
+              "source": "1076935f-d5e5-4807-80f6-7eb0acd0df4d-attachment.txt",
+              "type": "text/plain"
+            }
+          ],
+          "start": 1795416871752,
+          "stop": 1795416871801
+        }
+      ],
+      "start": 1795416871752,
+      "stop": 1795416871801
+    }
+  ],
+  "start": 1795416871752,
+  "stop": 1795416871801,
+  "uuid": "b33a1cad-ff87-42ee-94ea-c2174d95fad1",
+  "historyId": "e33a2585a0df07a924f730e46ad8cd8f",
+  "testCaseId": "e33a2585a0df07a924f730e46ad8cd8f",
+  "fullName": "tests.test_get_orders.TestGetOrders#test_get_orders_unauthorized",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Заказы пользователя"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_get_orders"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGetOrders"
+    },
+    {
+      "name": "host",
+      "value": "WIN-IJRG074EARB"
+    },
+    {
+      "name": "thread",
+      "value": "3148-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_get_orders"
+    }
+  ],
+  "titlePath": [
+    "tests",
+    "test_get_orders.py",
+    "TestGetOrders"
+  ]
+}

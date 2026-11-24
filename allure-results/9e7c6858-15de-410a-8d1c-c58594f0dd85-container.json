@@ -1,0 +1,52 @@
+{
+  "uuid": "76b1aa32-016f-4532-92b0-818693ab939b",
+  "children": [
+    "8c0ec964-931d-4957-9748-d4c1fa57305c"
+  ],
+  "befores": [
+    {
+      "name": "user_factory",
+      "status": "passed",
+      "start": 1795416872453,
+      "stop": 1795416872453
+    }
+  ],
+  "afters": [
+    {
+      "name": "user_factory::0",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "Удалить тестового пользователя",
+          "status": "passed",
+          "steps": [
+            {
+              "name": "DELETE /auth/user",
+              "status": "passed",
+              "attachments": [
+                {
+                  "name": "Тело запроса",
+                  "source": "27d6931a-06fe-47cf-8223-0dbb545814f4-attachment.json",
+                  "type": "application/json"
+                },
+                {
+                  "name": "Ответ сервера",
+                  "source": "3b9a3928-5658-4e5e-8c4e-16fe29bac290-attachment.txt",
+                  "type": "text/plain"
+                }
+              ],
+              "start": 1795416872717,
+              "stop": 1795416872814
+            }
+          ],
+          "start": 1795416872717,
+          "stop": 1795416872814
+        }
+      ],
+      "start": 1795416872717,
+      "stop": 1795416872815
+    }
+  ],
+  "start": 1795416872453,
+  "stop": 1795416872815
+}

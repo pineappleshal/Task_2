@@ -1,0 +1,24 @@
+{
+  "uuid": "e1fbbc21-1e0a-47be-b89c-a2ad6c56f5ca",
+  "children": [
+    "de958d38-cd9c-426c-b2e8-17cabb34f0f8"
+  ],
+  "befores": [
+    {
+      "name": "user_factory",
+      "status": "passed",
+      "start": 1795416870125,
+      "stop": 1795416870125
+    }
+  ],
+  "afters": [
+    {
+      "name": "user_factory::0",
+      "status": "passed",
+      "start": 1795416870200,
+      "stop": 1795416870200
+    }
+  ],
+  "start": 1795416870125,
+  "stop": 1795416870200
+}

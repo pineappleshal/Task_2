@@ -1,0 +1,107 @@
+{
+  "name": "Изменение пароля с авторизацией",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Изменить данные пользователя",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "PATCH /auth/user",
+          "status": "passed",
+          "attachments": [
+            {
+              "name": "Тело запроса",
+              "source": "73a7d917-bf8c-4c80-b0f9-a1ff2887fccf-attachment.json",
+              "type": "application/json"
+            },
+            {
+              "name": "Ответ сервера",
+              "source": "fa5bdd85-66a3-49ec-a058-e9be58ad9807-attachment.txt",
+              "type": "text/plain"
+            }
+          ],
+          "start": 1795416874036,
+          "stop": 1795416874191
+        }
+      ],
+      "start": 1795416874036,
+      "stop": 1795416874191
+    },
+    {
+      "name": "Войти в аккаунт",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "POST /auth/login",
+          "status": "passed",
+          "attachments": [
+            {
+              "name": "Тело запроса",
+              "source": "06aaa96c-786b-4b7f-a004-fd6ae656c5af-attachment.json",
+              "type": "application/json"
+            },
+            {
+              "name": "Ответ сервера",
+              "source": "ba3687ec-3d48-4aec-9a63-9ce3cd0689b6-attachment.txt",
+              "type": "text/plain"
+            }
+          ],
+          "start": 1795416874191,
+          "stop": 1795416874297
+        }
+      ],
+      "start": 1795416874191,
+      "stop": 1795416874297
+    }
+  ],
+  "start": 1795416874036,
+  "stop": 1795416874298,
+  "uuid": "ec537ca6-42d6-4ba2-9598-5bd3daf75362",
+  "historyId": "c1786a647d17e42b32aa7c64123ca539",
+  "testCaseId": "c1786a647d17e42b32aa7c64123ca539",
+  "fullName": "tests.test_update_user.TestUpdateUser#test_update_password_authorized",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Изменение пользователя"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_update_user"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestUpdateUser"
+    },
+    {
+      "name": "host",
+      "value": "WIN-IJRG074EARB"
+    },
+    {
+      "name": "thread",
+      "value": "3148-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_update_user"
+    }
+  ],
+  "titlePath": [
+    "tests",
+    "test_update_user.py",
+    "TestUpdateUser"
+  ]
+}

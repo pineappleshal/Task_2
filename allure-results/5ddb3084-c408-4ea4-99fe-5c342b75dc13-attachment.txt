@@ -1,0 +1,2 @@
+HTTP 400
+{"success": false, "message": "Ingredient ids must be provided"}

@@ -1,0 +1,44 @@
+{
+  "uuid": "0960bafc-913c-438b-bd17-7e01a4e44972",
+  "children": [
+    "bda77641-4cf6-47d1-80df-9338bebd5b8d"
+  ],
+  "befores": [
+    {
+      "name": "ingredient_ids",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "Получить ингредиенты",
+          "status": "passed",
+          "steps": [
+            {
+              "name": "GET /ingredients",
+              "status": "passed",
+              "attachments": [
+                {
+                  "name": "Тело запроса",
+                  "source": "d8b509a3-444e-4e25-8ee5-df58108e38b2-attachment.json",
+                  "type": "application/json"
+                },
+                {
+                  "name": "Ответ сервера",
+                  "source": "e0e101b1-68c6-451d-989c-699fc6619cff-attachment.txt",
+                  "type": "text/plain"
+                }
+              ],
+              "start": 1795416870376,
+              "stop": 1795416870400
+            }
+          ],
+          "start": 1795416870376,
+          "stop": 1795416870400
+        }
+      ],
+      "start": 1795416870376,
+      "stop": 1795416870401
+    }
+  ],
+  "start": 1795416870376,
+  "stop": 1795416871503
+}

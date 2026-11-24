@@ -1,0 +1,24 @@
+{
+  "uuid": "979e60f8-1596-4a1b-84c1-ee055ab8159b",
+  "children": [
+    "fc013f66-6d7d-4658-896d-3129a8be046b"
+  ],
+  "befores": [
+    {
+      "name": "authorized_api",
+      "status": "passed",
+      "start": 1795416873574,
+      "stop": 1795416873574
+    }
+  ],
+  "afters": [
+    {
+      "name": "authorized_api::0",
+      "status": "passed",
+      "start": 1795416873662,
+      "stop": 1795416873664
+    }
+  ],
+  "start": 1795416873574,
+  "stop": 1795416873664
+}
